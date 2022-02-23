@@ -1,0 +1,183 @@
+@media (min-height: 400px) {
+	.fullsize-video-bg {height: 96vh;}
+	.crypto-bg {min-height: 96vh;}
+}
+@media screen and (min-width: 1299.59px) {
+	.fullsize-video-bg {height: 55vh;}
+	.crypto-bg {min-height: 55vh;}
+	/* .journey-plainland {bottom: -40px;left: -40px;} */
+}
+@media (min-width: 1366px) {
+	.fullsize-video-bg {height: 92.9vh;}
+	.crypto-bg {min-height: 92.9vh;}
+}
+@media (min-width: 1440px) {
+	.fullsize-video-bg {height: 94.9vh;}
+	.crypto-bg {min-height: 94.9vh;}
+}
+@media (min-width: 1500px) {
+	.fullsize-video-bg {height: 95.9vh;}
+	.crypto-bg {min-height: 95.9vh;}
+}
+
+@media screen and (max-width: 1299.59px) {
+	.crypto-para p, .why-land-para p {font-size: 22px;}
+	.crypto-land-content .crypto-title {margin-bottom: 25px;}
+	.own-NFT-item {width: 260px;}
+	.football-stadium-div {left: 25%;width: 300px;}
+	.own-NFT-content {margin-top: 0;}
+	.car-div {width: 350px;}
+	.home-div {width: 350px;right: 23%;}
+	.journey-roadmap {top: -70px;}
+	.journey-plainland > div,.journey-crane > div,.journey-safe > div,.journey-gaming > div {width: 180px;}
+	.journey-gaming {right: -60px;bottom: -10px;}
+	.journey-plainland {bottom: -30px;left: -50px;}
+	.journey-crane,.journey-safe {top: 80px;}
+	.about-content {background-size: contain;}
+}
+@media screen and (max-width: 1270.59px) {
+	.own-NFT-item img {width: 250px;}
+	.journey-plainland > div,.journey-crane > div,.journey-safe > div,.journey-gaming > div {width: 180px;}
+	.journey-gaming {right: -60px;}
+	.football-stadium-div {left: 28%;}
+	.journey-plainland {left: -70px;}
+}	
+@media only screen and (max-width: 1199.59px) {
+	.about-para {width: 570px;}	
+	.about-content {background-size: cover;}
+	.crypto-land-section .justify-content-end {justify-content: center !important;}
+	.crypto-land-content {margin-left: 0;}
+}
+@media screen and (max-width: 1100.59px) {
+	.navbar-custom .topbar-left {width: 120px;}
+	.crypto-bg {padding: 30px;}
+	.journey-plainland > div,.journey-crane > div,.journey-safe > div,.journey-gaming > div {width: 160px;}
+	.journey-plainland {left: -40px;bottom: -20px;}
+	.why-land-para {width: auto;}
+	.networks-content {width: auto;}
+
+}
+@media screen and (max-width: 999.59px) {
+	.car-div {width: 260px;right: 0;}
+	.home-div {width: 260px;right: 23%;}
+	
+}
+/* - Max Width: 991 */
+@media (max-width: 992.59px) {
+	.crypto-bg.our-journey-bg,.our-journey-bg .crypto-land-section {min-height: 100vh;}
+	.our-journey-bg .crypto-land-section {align-items: flex-start;justify-content: flex-start;}
+	/* .our-journey-bg .crypto-title {padding-top: 30px;} */
+	.journey-roadmap {transform: rotate(-65deg);top: 200px;}
+	.journey-plainland,.journey-crane,.journey-prototype,.journey-safe,.journey-gaming {transform: rotate(65deg);}
+	.journey-plainland {left: -120px;bottom: -180px;}
+	.journey-crane {flex-direction: column;top: -30px;left: -30px;}
+	.journey-prototype {flex-direction: column;bottom: -80px;right: 80px;}
+	.journey-safe {flex-direction: column;right: 270px;top: -40px;}
+	.journey-gaming {flex-direction: column;right: -50px;bottom: -80px;}
+	.networks-content,.main-title {width: auto;}
+	.slick-prev {left: -25px;} .slick-next {right: -25px;}
+
+}
+@media (max-width: 991.59px) {
+	.gun-content {width: 175px;}
+	.journey-roadmap {
+		transform: rotate(-65deg) translate(10px, -6px);
+	}
+	.journey-crane {flex-direction: column;top: -60px;left: -30px;}
+	.journey-prototype {flex-direction: column;bottom: -120px;right: 120px;}
+	.journey-safe {flex-direction: column;right: 200px;top: -90px;}
+	.journey-gaming {flex-direction: column;right: -50px;bottom: -130px;}
+	/* .why-land-bg .crypto-title {padding-top: 30px;} */
+
+
+	
+}	
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.mobile-nav-toggle {right: 0;left: 0;padding: 0 15px;max-width: 720px;width: 100%;margin: 0 auto;} 
+
+}	
+@media (max-width: 768.59px) {
+	.football-stadium-div {top: 250px;left: 22%;}
+	.home-div {right: 12%;}
+	.car-div {top: 250px;}
+}	
+@media (max-width: 767.59px) {		
+	.about-para,.why-land-para,.open-world-para {width: auto;}
+	.networks-content {width: 310px;margin: 10px auto;}
+	.footer-menu {justify-content: center;margin: 40px 0 10px;}
+	.own-NFT-item {position: relative;}
+	.home-div {right: -30px;top: 0;}
+	.football-stadium-div {top: 100px;left: 40px;}
+	.car-div {top: 100px;}
+	.btn-purple {font-size: 25px;}
+	.testimonial .pic {width: 230px;height: 230px;}
+	.text-end-right {padding: 0;}
+	.slick-next-img,.slick-prev, .slick-next,.slick-prev-img {width: 40px;height: 40px;}
+	.slick-next {right: -6px;}
+	.slick-prev {left: -6px;}
+	.social-content {justify-content: center;margin-bottom: 20px;margin-top: 15px;}
+	.navbar-custom .topbar-menu li.social-list-item {display: none;}
+	.navbar-custom .topbar-left {width: 50%;justify-content: space-between;}
+	.frame-content {margin-top: 20px;}
+	.crypto-bg {padding: 30px 10px;}
+
+
+}
+@media screen and (max-width: 700.59px) {
+	.journey-none-mb {display: none;}
+	.journey-roadmap {transform: rotate(0deg);top: -60px;}
+	.journey-timeline-content,.journey-timeline {position: relative;flex-direction: column;}
+	.journey-timeline-content {flex-direction: column-reverse;}
+	.journey-plainland, .journey-crane, .journey-prototype, .journey-safe, .journey-gaming,.journey-moon {transform: rotate(0deg);top: 0;bottom: 0;right: 0;left: 0;margin: 50px auto;}
+	.journey-plainland > p,.journey-crane > p,.journey-prototype > p,.journey-safe > p,.journey-gaming > div.journey-gaming-para,.journey-timeline p {width: auto;margin: 8px 0;text-align: center;}
+	.journey-timeline:not(:first-child):after {content: '🡓';position: absolute;font-size: 50px;transform: rotate(180deg);bottom: -90px;}
+}
+@media only screen and (min-width: 640px) and (max-width: 767px) {	
+	.mobile-nav-toggle {right: 0;left: 0;padding: 0 15px;max-width: 540px;width: 100%;margin: 0 auto;} 
+
+}
+@media screen and (max-width: 690px) {
+	
+}
+/* - Max Width: 639 */
+@media (max-width: 641px) {	
+	.main-title,.crypto-title h3 {font-size: 30px;}
+	.main-title {line-height: 35px;}
+	.crypto-para, .why-land-para {padding-left: 0;}
+	.crypto-para p, .why-land-para p,.open-world-para p {font-size: 18px;}
+	.open-world-para,.open-world-content .crypto-title {width: auto;margin-right: 0;margin-left: 0;}
+	.crypto-bg {padding: 30px 10px;}
+	.own-NFT-bg .crypto-land-section, .crypto-bg.own-NFT-bg,.in-game-bg,.crypto-bg.in-game-bg .crypto-land-section {min-height: 37vh;}
+	.gallery {grid-gap: 4px;}
+	.gallery-grid {border-radius: 15px;}
+	.frame-content {margin-top: 0px;}
+ 
+}
+
+@media (max-width: 550px) {
+    .about-content {height: auto;}
+	.group-btn {margin-bottom: 20px;}
+	.about-para {margin-bottom: 40px;margin-top: 20px;}
+	.gun-content {width: 115px;}
+}
+  
+@media screen and (max-width: 541.59px) {
+	
+}
+@media screen and (max-width: 490px) {
+	.main-title, .crypto-title h3 {font-size: 25px;}
+	.crypto-para p, .why-land-para p, .open-world-para p,.about-para p {font-size: 15px;}
+	.btn-purple {font-size: 20px;}
+	.own-NFT-assets {flex-direction: column;}
+	.own-NFT-item {top: 0 !important;bottom: 0 !important;right: 0 !important;left: 0 !important;margin: 15px 0;width: 180px;}
+	.coin-right {width: 40px;top: -20px;}
+	.networks-content {width: auto;}
+}
+@media screen and (max-width: 450.59px) {
+	.gallery {grid-template-rows: 10px 10px 1fr 6px 1fr 20px;}
+	.gallery-grid {border-radius: 10px;}
+}
+@media screen and (max-width: 396.59px) {
+	.btn-purple {font-size: 18px;} 
+	.main-title, .crypto-title h3 {font-size: 22px;}
+}
